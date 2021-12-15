@@ -1,4 +1,5 @@
-  "name": "express-heroku-demo",
+{
+"name": "express-heroku-demo",
   "version": "1.0.0",
   "description": "Teste JS",
   "main": "index.js",
@@ -11,3 +12,4 @@
   "dependencies": {
     "express": "^4.17.1"
   }
+}
