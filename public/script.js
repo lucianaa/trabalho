@@ -12,7 +12,7 @@ button.addEventListener("click",function(){
 
 if(conjunto.style.display!="none"){
 ///////////////////////////////
-const r = fetch("http://www.boredapi.com/api/activity/").then(function(response){
+const r = fetch("https://www.boredapi.com/api/activity/").then(function(response){
     return response.json();
 }).then (function(json){
     document.querySelector("#activity").innerHTML = json.activity + "<br>"+ "<br>"+"<br>";
@@ -72,7 +72,7 @@ if(first.style.display!="none"){
 
 var input=document.querySelector("#input1");
 var participantes=input.value;
-var url="http://www.boredapi.com/api/activity?participants="+participantes;
+var url="https://www.boredapi.com/api/activity?participants="+participantes;
 ///////////////////////////
 ///////////////////////////
 ///////////////////////////
